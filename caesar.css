@@ -1,0 +1,403 @@
+/*
+  Based on Maggie Appleton's work in Painting Roam - https://maggieappleton.com/paintingroam
+*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+}
+
+.rm-title-display {
+    font-weight: 600;
+}
+
+.roam-body .roam-app h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.roam-body .roam-app h1 textarea {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+}
+
+div,
+textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+div {
+    font-size: 15px;
+}
+
+.starred-pages-wrapper > div:first-of-type {
+    background-color: #151617 !important;
+}
+
+.starred-pages a div:before {
+    content: '→ ';
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    color: white;
+    opacity: 0.4;
+    letter-spacing: -0.002em;
+    font-weight: 500;
+    transition: all 0.16s ease;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background: none;
+    opacity: 1;
+}
+.starred-pages-wrapper .flex-h-box span {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    opacity: 0.3;
+}
+.roam-block-container {
+    max-width: 1000px;
+}
+
+.rm-query {
+    border: 0.5px solid #e4e9ec;
+    border-radius: 5px;
+}
+
+.title-children-text {
+    font-size: 14px;
+}
+
+.rm-query .rm-query-title {
+    background-color: #f7f8f8;
+    padding: 0.8em;
+    color: #d1dbe2;
+    font-size: 80%;
+}
+.rm-reference-container > div > div > strong,
+.rm-reference-main strong {
+    color: rgba(24, 32, 38, 0.5) !important;
+}
+
+.rm-reference-main.rm-query-content {
+    padding: 0.8em;
+}
+
+.rm-reference-main .rm-reference-item .rm-block-text {
+    font-size: 90%;
+}
+
+.roam-log-page {
+    border-color: #dedede;
+}
+
+.roam-log-page.roam-log-preview h1.level2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+}
+.roam-log-page.roam-log-preview h1.level2 + div {
+    font-size: 13px;
+    position: relative;
+    top: 4px;
+}
+
+.rm-reference-main .rm-reference-item .controls {
+    margin-left: -1em;
+}
+
+.rm-ref-page-view {
+    padding: 0.4em 0.2em;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding: 4px 6px;
+}
+
+
+div.roam-sidebar-container.noselect > div > div {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.bp3-icon-caret-down::before {
+    content: "⌄";
+    position: relative;
+    top: -4px;
+    opacity: 0.6;
+}
+
+#block-input {
+    background: white;
+}
+
+.roam-body #block-input > span > div {
+    padding: 6px 24px;
+    background: white;
+}
+
+span.bp3-icon-small.bp3-icon-star {
+    display: none;
+    visibility: hidden;
+}
+
+.roam-block {
+    max-width: 850px;
+}
+
+#right-sidebar > div {
+    background-color: #f7f8fa;
+    border-left: 1px solid #e9ebef;
+}
+.rm-page-ref-brackets {
+    color: #db3737;
+    opacity: 0.4;
+}
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #cccfd6;
+}
+.block-border-left {
+    border-left: 1px solid #fff;
+}
+.kanban-board {
+    background-color: #fff;
+}
+.kanban-card {
+    background-color: white;
+    margin: 8px;
+    box-shadow: 0px 1px 2px #9EB3C0;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 1.3em;
+}
+.kanban-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+}
+.kanban-column {
+    background-color: #E4EDF2;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+    min-width: 200px;
+    border-radius: 3px;
+}
+.rm-block-ref::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    border-radius: 40px;
+    height: 6px;
+    background: #db3737;
+    margin-right: 5px;
+    position: relative;
+    top: -2px
+}
+.rm-block-ref {
+    font-size: 1em;
+    color: #606b7b;
+    border-color: rgba(219, 55, 55, 0.2);
+}
+.rm-block-ref:hover {
+    background: none;
+    cursor: pointer;
+    border-color: rgba(219, 55, 55, 0.6);
+}
+.rm-pages-title-text strong {
+    font-weight: 600;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header {
+    background: #fff;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    align-self: center;
+}
+.bp3-text-small span {
+    font-size: 14px;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-title-col span,
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-col span {
+    font-size: 12px;
+    font-weight: 600;
+}
+.rm-clickable-pill,
+.rm-clickable-pill.level1-pill {
+    background-color: #db3737;
+}
+.checkmark {
+    background: #fff;
+}
+.check-container input:checked ~ .checkmark {
+    background: #33bdea;
+}
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
+.rm-reference-item {
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #e4e9ee;
+    margin-right: 8px;
+    flex: 1 1 100%;
+    word-break: break-word;
+    background-color: #f7f9fb;
+    padding: 8px;
+}
+
+.rm-level2 {
+    font-size: 1.5em;
+}
+.rm-level3 {
+    color: #939aae;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.rm-page-ref {
+    color: #db3737;
+}
+.rm-page-ref-tag {
+    background: #f5f5f5;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 3px;
+}
+.rm-page-ref-tag:before,
+.rm-page-ref-tag:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+}
+.rm-page-ref-tag:hover {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2)
+}
+.rm-page-ref-link-color {
+    color: #db3737;
+    font-weight: 600;
+}
+a {
+    color: #db3737;
+}
+a:hover {
+    color: #db3737;
+    text-decoration-color: rgba(219, 55, 55, 0.4);
+    text-underline-position: under;
+}
+.intercom-app,
+.intercom-launcher-frame,
+#intercom-container {
+    display: none;
+}
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #202021;
+    border-right: 1px #eee solid;
+}
+
+.bp3-input {
+    box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0), inset 0 0 0 1px rgba(16, 22, 26, 0.15), inset 0 0px 0px rgba(16, 22, 26, 0.2);
+}
+.bp3-input:focus,
+.bp3-input.bp3-active {
+    box-shadow: 0 0 0 1px #137cbd, 0 0 0 3px rgba(19, 124, 189, 0.3), inset 0 1px 0px rgba(16, 22, 26, 0.2);
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .icon {
+    display: none;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    opacity: 0.4;
+    transition: all 0.16s ease;
+    padding: 8px 27px;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button div {
+    font-size: 13px;
+    font-weight: 600;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background: none;
+    color: white;
+    opacity: 1;
+}
+.roam-sidebar-container .rm-db-title-container .rm-db-title {
+    font-size: 14px;
+}
+
+.roam-sidebar-content .top-row {
+    margin-bottom: 1.6em;
+}
+
+#buffer.tall {
+    height: calc(100vh - 50px);
+}
+.check-container {
+    padding-right: 4px;
+}
+span.rm-page-ref {
+    border-radius: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.content span.rm-page-ref {
+    padding: 4px 1px 1px;
+    /* required for fixing azo */
+}
+.center-proj {
+    text-align: center;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body,
+    .roam-topbar {
+        background: #2C2C30;
+    }
+    .roam-body .roam-app .roam-sidebar-container,
+    .rm-all-pages .table .rm-pages-row,
+    .rm-reference-item,
+    #right-sidebar > div {
+        border-color: #232427;
+    }
+    .rm-all-pages .table .rm-pages-row.rm-pages-row-header,
+    .rm-page-ref-tag,
+    .rm-reference-item,
+    #right-sidebar > div {
+        background: #232427;
+    }
+
+    .bp3-input,
+    .bp3-popover .bp3-popover-content,
+    .bp3-menu {
+        background: #151617;
+    }
+    .rm-find-or-create-wrapper .rm-menu-item {
+        background: #151617 !important;
+    }
+    .rm-pages-title-text,
+    .roam-body .roam-app h1,
+    .roam-body .roam-app,
+    .rm-reference-container > div > div > strong,
+    .bp3-menu .rm-search-title {
+        color: white;
+    }
+    .rm-reference-main strong,
+    .rm-reference-container > div > div > strong {
+        color: white !important;
+    }
+    .block-border-left {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+}
