@@ -1,5 +1,5 @@
 # 🚩 Caesar
-A clean Roam theme that adapts to light/dark mode system preferences
+A clean theme for [Roam Research](https://roamresearch.com) that adapts to light/dark mode system preferences
 
 ## Preview
 
