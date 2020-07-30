@@ -1,5 +1,5 @@
 # 🚩 Caesar
-A clean theme for [Roam Research](https://roamresearch.com) that adapts to light/dark mode system preferences
+A clean theme for [Roam Research](https://roamresearch.com) that adapts to light/dark mode system preferences built from Maggie Appleton's foundation here — https://maggieappleton.com/paintingroam
 
 ## Preview
 
