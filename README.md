@@ -1,4 +1,4 @@
-# caesar
+# 🚩 Caesar
 A clean Roam theme that adapts to light/dark mode system preferences
 
 ## Installation
