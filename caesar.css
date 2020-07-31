@@ -383,8 +383,11 @@ span.rm-page-ref {
     .bp3-menu {
         background: #151617;
     }
-    .rm-find-or-create-wrapper .rm-menu-item {
+    .rm-find-or-create-wrapper .rm-menu-item, .bp3-elevation-3 {
         background: #151617 !important;
+    }
+    .bp3-elevation-3 .dont-unfocus-block:hover {
+        background: rgba(255,255,255,0.2);
     }
     .rm-pages-title-text,
     .roam-body .roam-app h1,
