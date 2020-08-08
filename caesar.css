@@ -101,7 +101,7 @@ div {
     font-size: 90%;
 }
 
-.roam-log-page {
+.roam-log-page, .roam-log-container .roam-log-preview, .roam-log-container .roam-log-page {
     border-color: #dedede;
 }
 
