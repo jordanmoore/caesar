@@ -1,3 +1,5 @@
+
+
 /*
   Based on Maggie Appleton's work in Painting Roam - https://maggieappleton.com/paintingroam
 */
@@ -24,6 +26,22 @@ h6 {
     font-size: 28px;
     font-weight: 600;
 }
+
+.roam-body .roam-app .rm-level1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.roam-body .roam-app .rm-level2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.roam-body .roam-app .rm-level3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .roam-body .roam-app h1 textarea {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 600;
@@ -38,10 +56,6 @@ textarea {
 b,
 strong {
     font-weight: 600;
-}
-
-div {
-    font-size: 15px;
 }
 
 .starred-pages-wrapper > div:first-of-type {
